@@ -85,8 +85,9 @@
 
 
                         <Button Text="Avançar"
-                            FontAttributes="Bold"
-                            BackgroundColor="Gray"/>
+                                FontAttributes="Bold"
+                                BackgroundColor="{StaticResource PrimaryDark}"
+                                Clicked="Button_Clicked"/>
 
                         <Button Text="Sobre"
                                 FontAttributes="Bold"
