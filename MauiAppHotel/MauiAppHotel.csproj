@@ -57,9 +57,67 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiFont Remove="Resources\Fonts\C.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-Black.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-BlackItalic.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-Bold.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-BoldItalic.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-ExtraBold.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-ExtraBoldItalic.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-ExtraLight.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-ExtraLightItalic.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-Italic.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-Light.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-LightItalic.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-Medium.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-MediumItalic.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-Regular.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-SemiBold.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-SemiBoldItalic.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-Thin.ttf" />
+	  <MauiFont Remove="Resources\Fonts\Poppins-ThinItalic.ttf" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\Fonts\C.ttf" />
+	  <None Remove="Resources\Fonts\Montserrat-Italic-VariableFont_wght.ttf" />
+	  <None Remove="Resources\Fonts\Montserrat-VariableFont_wght.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-Black.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-BlackItalic.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-Bold.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-BoldItalic.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-ExtraBold.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-ExtraBoldItalic.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-ExtraLight.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-ExtraLightItalic.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-Italic.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-Light.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-LightItalic.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-Medium.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-MediumItalic.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-Regular.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-SemiBold.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-SemiBoldItalic.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-Thin.ttf" />
+	  <None Remove="Resources\Fonts\Poppins-ThinItalic.ttf" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="Sobre.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ContratacaoHospedagem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\HospedagemContratada.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	</ItemGroup>
 
 </Project>
