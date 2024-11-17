@@ -50,7 +50,6 @@
 
         <Button Text="Voltar"
                 BackgroundColor="{StaticResource PrimaryDark}"
-                HorizontalOptions="Center"
                 Clicked="Button_Clicked" />
 
 
