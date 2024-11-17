@@ -22,7 +22,11 @@
                 <Label Text="Ano de Desenvolvimento: 2024"
                        FontSize="20"
                        TextColor="{StaticResource PrimaryDark}" />
-                
+                <Button Text="Voltar"
+                    BackgroundColor="{StaticResource PrimaryDark}"                    
+                    Clicked="Button_Clicked"/>
+
+
             </VerticalStackLayout>
         </Frame>
     </VerticalStackLayout>
